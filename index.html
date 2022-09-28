@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="right-section">
+        <div class="right-section--mobile">
+        <h2 class="right-section__title">Hello Evano 👋🏼,</h2>
+          <button type="button" class="mobile-menu-button" data-menu-open>
+            <svg class="mobile-menu-button__icon" width="24" height="16">
+                <use href="./img/sprite.svg#burger-menu-icon"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="grid">
+          <div class="grid--display">
+            <div>
+          <h2 class="grid__title">All Customers</h2>
+          <p class="grid__text">Active Members</p>
+          </div>
+              <div class="search-box">
+                <div>
+                  <svg class="search-box__icon" width="16" height="16">
+                  <use href="./img/sprite.svg#icon-search"></use>
+                  </svg>
+                </div>
+              <input type="text" name="" class="search-box__text" placeholder="Search">
+              </div>
+              </div>
+          <ul class="grid-list">
+            <li class="grid-list__item">
+              <p class="grid-list__th">Customer Name</p> 
+              <p class="grid-list__th">Company</p>
+              <p class="grid-list__th">Phone Number</p>
+              <p class="grid-list__th">Email</p>
+              <p class="grid-list__th">Country</p>
+              <p class="grid-list__th">Status</p>
+              </li>
+          </ul>
+
+          <div class="pagination">
+            <button class="btn"><</button>
+            <button class="btn btn__active">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">4</button>
+            <span>...</span>
+            <button class="btn">40</button>
+            <button class="btn">></button>
+          </div>
+        </div>
+      </div>
+        <div class="aside-section" data-menu>
+          <button type="button" class="mobile-menu__close-button" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="19" height="19">
+                <use href="./img/sprite.svg#burger-menu-icon-close"></use>
+            </svg>
+          </button> 
+        <ul class="aside-section-header">
+          <li class="aside-section-header__list">
+            <svg class="aside-section-header__icon" width="30" height="32">
+              <use href="./img/sprite.svg#icon-main-dashboard"></use>
+            </svg>
+            <h2 class="aside-section-header__title">Dashboard <span class="aside-section-header__title--style">v.01</span> </h2>
+          </li>
+        </ul>
+        <ul class="aside-section-menu">
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-dashboard-menu"></use>
+            </svg>
+            <p class="aside-section-menu__text">Dashboard</p>
+          </li>
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-product"></use>
+            </svg>
+            <p class="aside-section-menu__text">Product</p>
+            <svg class="aside-section-menu__icon--vector" width="16" height="16">
+              <use href="./img/sprite.svg#icon-chevron"></use>
+            </svg>
+          </li>
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-customers"></use>
+            </svg>
+            <p class="aside-section-menu__text">Customers</p>
+            <svg class="aside-section-menu__icon--vector" width="16" height="16">
+              <use href="./img/sprite.svg#icon-chevron"></use>
+            </svg>
+          </li>
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-income"></use>
+            </svg>
+            <p class="aside-section-menu__text">Income</p>
+            <svg class="aside-section-menu__icon--vector" width="16" height="16">
+              <use href="./img/sprite.svg#icon-chevron"></use>
+            </svg>
+          </li>
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-promote"></use>
+            </svg> 
+            <p class="aside-section-menu__text">Promote</p>
+            <svg class="aside-section-menu__icon--vector" width="16" height="16">
+              <use href="./img/sprite.svg#icon-chevron"></use>
+            </svg>
+          </li>
+          <li class="aside-section-menu__item">
+            <svg class="aside-section-menu__icon" width="20" height="20">
+              <use href="./img/sprite.svg#icon-help"></use>
+            </svg>
+            <p class="aside-section-menu__text">Help</p>
+            <svg class="aside-section-menu__icon--vector" width="16" height="16">
+              <use href="./img/sprite.svg#icon-chevron"></use>
+            </svg>
+          </li>
+        </ul>
+        <div class="aside-section-footer">
+          <img class="aside-section-footer__img" src="./img/evano@1px.png" alt="Project manager">
+          <div class="aside-section-footer__name">
+          <h2 class="aside-section-footer__title">Evano</h2>
+          <p class="aside-section-footer__text">Project Manager</p>  
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/index.js" type="module"></script>
+    <script src="js/modal-window.js"></script>
+  </body>
+</html>
